@@ -1,1 +1,47 @@
-theme: jekyll-theme-minimal
+
+title: Inbox List DEV
+email: jbc@rmcomplexity.com
+author: Josue Balandrano Coronel
+description: >- # this means to ignore newlines until "baseurl:"
+  A newsletter directory for everything DEV.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://inboxlist.dev" # the base hostname & protocol for your site, e.g. http://example.com
+
+logo: assets/images/logo.png
+lang: en
+
+paginate: 10
+paginate_path: "/page/:num/"
+
+github:
+  username: rmcomplexity
+encoding: UTF-8
+kramdown:
+  input: GFM
+  hard_wrap: false
+future: true
+jailed: false
+gfm_quirks: paragraph_end
+
+markdown: kramdown
+Theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed
+  - jekyll-mentions
+  - jemoji
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+header_pages:
+  - pages/about.md
+  - pages/submit.md
