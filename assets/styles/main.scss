@@ -1,0 +1,131 @@
+---
+# Custom main css
+---
+
+@import url('http://fonts.cdnfonts.com/css/thegoodmonolith');
+
+$main-color:           #0D3B66;
+$secondary-color:      #FAF0CA;
+$notify-color:         #F4D35E;
+$backup-color:         #EE964B;
+$important-color:      #F95738;
+$main-font-color:      #FFFFFF;
+$secondary-font-color: #000000;
+
+@import "material_button";
+
+body {
+    margin: 0;
+}
+
+.logo-font {
+    font-family: 'TheGoodMonolith', sans-serif;
+}
+
+.logo {
+    display: flex;
+    font-family: 'TheGoodMonolith', sans-serif;
+    align-items: center;
+    justify-content: center;
+    background: $main-color;
+    padding: 0.3em;
+    color: $main-font-color;
+    font-size: 3em;
+    margin: 0;
+}
+
+.page-content {
+    display: flex;
+    min-height: 100vh;
+    background: url('/assets/images/inbox-list-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    .home {
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        background-color: rgba(13, 59, 102, 0.7);
+    }
+}
+
+.landing-page-wrapper {
+    display: flex;
+    width: 960px;
+    .landing-page-box {
+        flex: 1;
+        color: $main-font-color;
+        h1.logo {
+            background: none;
+        }
+        .logo-font {
+            text-align:center;
+            color: $main-font-color;
+            a, a:hover, a:visited, a:focus {
+                color: $main-font-color;
+            }
+            span {
+                font-size:1.2em;
+            }
+        }
+        .pitch-and-form {
+            display: flex;
+            padding: 0.3em;
+            flex-direction: column;
+            margin-top: 5em;
+            .pitch {
+                display: flex;
+                flex-direction: row;
+                h2 {
+                    text-align: left;
+                    font-size: 2em;
+                }
+                p {
+                    margin: 0;
+                    font-weight: bold;
+                    font-size: 1.2em;
+                }
+                .pitch-image {
+                    flex: 1;
+                    img {
+                        width:100%;
+                    }
+                }
+                .pitch-copy {
+                    flex: 2;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                }
+            }
+            .form {
+                margin-top: 5em;
+                h2 {
+                    text-align: center;
+                }
+                .form-content {
+                    form {
+                        display: flex;
+                        flex-direction: column;
+                        .inputs {
+                            display: flex;
+                            flex-direction: row;
+                            margin: 0.3em;
+                            input {
+                                display: flex;
+                                flex: 1;
+                                padding: 0.3em;
+                                margin: 1em;
+                            }
+                        }
+                        button {
+                            flex: 1;
+                            margin-left: 1em;
+                            margin-right: 1em;
+                            align-self: center;
+                            width: 50%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

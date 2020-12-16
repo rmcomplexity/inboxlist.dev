@@ -1,0 +1,28 @@
+.btn {
+    border-width: 0;
+    outline: none;
+    border-radius: 5px;
+    padding: 0.3em;
+    font-size: 1.2em;
+}
+
+.btn.main {
+    background-color: $main-color;
+}
+
+.btn.secondary {
+    background-color: $secondary-color;
+}
+
+.btn.notify {
+    background-color: $backup-color;
+}
+
+.btn.important {
+    background-color: $backup-color;
+}
+
+.btn.black {
+    background-color: black;
+    color: white;
+}
