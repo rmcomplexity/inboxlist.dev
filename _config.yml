@@ -1,12 +1,19 @@
 
 title: Inbox List DEV
 email: jbc@rmcomplexity.com
-author: Josue Balandrano Coronel
+author: rmcomplexity
 description: >- # this means to ignore newlines until "baseurl:"
-  A newsletter directory for everything DEV.
+  A newsletter directory for everything dev.
+  Find newsletters related to anything from how to learn to code to how
+  to start your own SaaS.
+tagline: >-
+  A newsletter directory for everything dev.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://inboxlist.dev" # the base hostname & protocol for your site, e.g. http://example.com
+twitter:
+    username: rmcomplexity
 
+image: assets/images/logo.png
 logo: assets/images/logo.png
 lang: en
 
