@@ -49,8 +49,9 @@ body {
 
 .landing-page-wrapper {
     display: flex;
-    width: 960px;
+    max-width: 960px;
     .landing-page-box {
+        padding: 1em;
         flex: 1;
         color: $main-font-color;
         h1.logo {
