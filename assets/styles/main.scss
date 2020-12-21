@@ -127,5 +127,35 @@ body {
                 }
             }
         }
+        .coming-soon {
+            margin-top: 10em;
+            display: flex;
+            flex-direction: row;
+            .coming-soon-copy {
+                flex: 2;
+                width: 50%;
+                justify-content: center;
+                flex-direction: column;
+                display: flex;
+                h2 {
+                    text-align: left;
+                    font-size: 4em;
+                }
+                p {
+                    margin: 0;
+                    font-weight: bold;
+                    font-size: 1.2em;
+                    a, a:hover, a:visited, a:focus {
+                        color: $main-font-color;
+                    }
+                }
+            }
+            .coming-soon-img {
+                flex:1;
+                img {
+                    width: 100%;
+                }
+            }
+        }
     }
 }

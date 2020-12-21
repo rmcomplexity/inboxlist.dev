@@ -29,6 +29,7 @@ layout: home
           </p>
         </div>
       </div>
+      <!--
        <div class="form">
         <h2 class="form-title">
           Get notified at launch!
@@ -37,6 +38,19 @@ layout: home
             {% include signup_form.html %}
         </div>
        </div>
+      -->
+    </div>
+    <div class="coming-soon">
+      <div class="coming-soon-copy">
+          <h2 class="logo-font">Coming soon!</h2>
+          <p>
+              If you know of a great newsletter let me know
+              <a href="mailto:jbc@rmcomplexity.com">jbc@rmcomplexity.com</a>
+          </p>
+      </div>
+      <div class="coming-soon-img">
+          <img src="/assets/svgs/launch_day.svg" atl="Coming Soon!" />
+      </div>
     </div>
   </div>
 </div>
