@@ -153,10 +153,26 @@ body {
             }
             .coming-soon-img {
                 flex:1;
+                display: flex;
+                justify-content: center;
                 img {
                     width: 100%;
                 }
             }
         }
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .landing-page-wrapper .landing-page-box h1.logo {
+        font-size: 2em;
+    }
+
+    .landing-page-wrapper .landing-page-box .pitch-and-form .pitch {
+        flex-direction:column;
+    }
+
+    .landing-page-wrapper .landing-page-box .coming-soon {
+        margin-top: 3em;
     }
 }
